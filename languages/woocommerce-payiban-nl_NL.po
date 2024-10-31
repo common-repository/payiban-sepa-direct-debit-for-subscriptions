@@ -1,0 +1,326 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcpayiban\n"
+"POT-Creation-Date: 2016-07-06 17:16+0200\n"
+"PO-Revision-Date: 2016-07-06 17:16+0200\n"
+"Last-Translator: \n"
+"Language-Team: van Stein en Groentjes <info@vansteinengroentjes.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: woocommerce-payIBAN.php:29
+msgid "Once Every Minute"
+msgstr ""
+
+#: woocommerce-payIBAN.php:251
+msgid "https://www.payiban.com/welcome/"
+msgstr "https://www.payiban.com/nl/welkom/"
+
+#: woocommerce-payIBAN.php:429
+msgid "Enable/Disable"
+msgstr "Aan/Uit"
+
+#: woocommerce-payIBAN.php:431
+msgid "Enable payIBAN Payment Module."
+msgstr "Gebruik de payIBAN betalingen module"
+
+#: woocommerce-payIBAN.php:434
+msgid "Test mode"
+msgstr "Test modus"
+
+#: woocommerce-payIBAN.php:436
+msgid "In the test mode, payments are not processed."
+msgstr ""
+"In de test mode worden geen TAN codes verzonden en geen informatie "
+"opgeslagen bij payIBAN."
+
+#: woocommerce-payIBAN.php:439
+msgid "Title:"
+msgstr "Titel:"
+
+#: woocommerce-payIBAN.php:441
+msgid "This controls the title which the user sees during checkout."
+msgstr "Dit is de titel die de gebruiker ziet bij de checkout."
+
+#: woocommerce-payIBAN.php:442
+msgid "SEPA Direct Debit processed by"
+msgstr "SEPA Machtiging processed by"
+
+#: woocommerce-payIBAN.php:444
+msgid "Description:"
+msgstr "Beschrijving:"
+
+#: woocommerce-payIBAN.php:446
+msgid "This controls the description which the user sees during checkout."
+msgstr "Dit is de beschrijving die de gebruiker ziet op de betaal pagina."
+
+#: woocommerce-payIBAN.php:447
+msgid "Pay securely by using your IBAN bank account with PayIBAN."
+msgstr "Betaal veilig met uw IBAN bank nummer met payIBAN."
+
+#: woocommerce-payIBAN.php:449
+msgid "General terms:"
+msgstr "Algemene voorwaarden:"
+
+#: woocommerce-payIBAN.php:451
+msgid ""
+"This controls the general term message which the user sees during checkout."
+msgstr "De gebruiker ziet deze algemene voorwaarden bij het afrekenen."
+
+#: woocommerce-payIBAN.php:452
+msgid ""
+"By signing this (recurring) mandate form, you authorise (merchant) to send "
+"instructions."
+msgstr ""
+"Bij het tekenen van deze (herhalende) mandaat, autoriseert u (verkoper) om "
+"instructies te versturen."
+
+#: woocommerce-payIBAN.php:454
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: woocommerce-payIBAN.php:456
+msgid ""
+"Check username and password within section API and plugin of your account.  "
+"<a href=\"https://www.payiban.com/register/\">Click to register your free "
+"account.</a>"
+msgstr ""
+"Vul hier uw gebruikersnaam en wachtwoord in uit de sectie API en plugin van "
+"uw account. <a href=\"https://www.payiban.com/nl/aanmelden/\">Klik hier om "
+"een gratis account aan te maken</a>."
+
+#: woocommerce-payIBAN.php:460
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: woocommerce-payIBAN.php:462
+msgid ""
+"API password given to you by payIBAN.<br/>Need support: <a href=\"mailto:"
+"support@payiban.com\">support@payiban.com</a>."
+msgstr ""
+"Hulp nodig? <a href=\"mailto:support@payiban.com\">support@payiban.com</a>."
+
+#: woocommerce-payIBAN.php:466
+msgid "Admin Email"
+msgstr "Admin Email"
+
+#: woocommerce-payIBAN.php:468
+msgid "!Important: Email adress for notices about cancelled subscriptions"
+msgstr ""
+"!Belangrijk: Email adres waarop u berichten kan ontvangen van opgezegde "
+"abonnementen"
+
+#: woocommerce-payIBAN.php:471
+msgid "Return Page"
+msgstr "Pagina na betaling"
+
+#: woocommerce-payIBAN.php:474
+msgid "URL of success page"
+msgstr "URL van success pagina"
+
+#: woocommerce-payIBAN.php:480
+msgid "PayIBAN Payment Gateway"
+msgstr "PayIBAN betalings plugin"
+
+#: woocommerce-payIBAN.php:481
+msgid "PayIBAN plugin made by Bas van Stein, van Stein en Groentjes"
+msgstr "PayIBAN plugin is gemaakt door Bas van Stein, van Stein en Groentjes"
+
+#: woocommerce-payIBAN.php:500
+msgid "1. IBAN and mobile."
+msgstr "1. IBAN en Mobiel nummer."
+
+#: woocommerce-payIBAN.php:504
+msgid "IBAN number"
+msgstr "IBAN nummer."
+
+#: woocommerce-payIBAN.php:506
+msgid "Mobile number"
+msgstr "Mobiel nummer."
+
+#: woocommerce-payIBAN.php:518
+msgid "2. Request your TAN-code"
+msgstr "2. Vraag uw TAN-code aan."
+
+#: woocommerce-payIBAN.php:519
+msgid "Request TAN code"
+msgstr "Vraag TAN code aan"
+
+#: woocommerce-payIBAN.php:521
+msgid "3. Fill in your TAN-code."
+msgstr "3. Vul uw TAN-code in."
+
+#: woocommerce-payIBAN.php:540
+msgid ""
+"Error! For receiving the PayIBAN TAN code, a valid number is required "
+"(31612345678)."
+msgstr ""
+
+#: woocommerce-payIBAN.php:575
+msgid "ERROR! "
+msgstr "ERROR!"
+
+#: woocommerce-payIBAN.php:577
+msgid "Go to step 3 and enter your TAN code. "
+msgstr "Ga naar stap 3 en vul uw TAN code in."
+
+#: woocommerce-payIBAN.php:580
+msgid "Caught exception: "
+msgstr ""
+
+#: woocommerce-payIBAN.php:586
+msgid "ERROR! Please fill in all fields. "
+msgstr "ERROR! Vul aub alle velden in."
+
+#: woocommerce-payIBAN.php:590
+msgid "ERROR! The given IBAN account number is not valid. "
+msgstr "ERROR! Het opgegeven rekening nummer is geen geldig IBAN nummer."
+
+#: woocommerce-payIBAN.php:629 woocommerce-payIBAN.php:643
+msgid "ERROR! payIBAN does not support trial periods or signup fees. "
+msgstr "ERROR! PayIBAN accepteert geen signup fees en test periodes."
+
+#: woocommerce-payIBAN.php:636 woocommerce-payIBAN.php:651
+#: woocommerce-payIBAN.php:669
+msgid ""
+"ERROR! payIBAN only support per month, per two / three months, per six "
+"months and per year. "
+msgstr ""
+"ERROR! PayIBAN accepteert alleen per maand/ per twee, per zes en per twaalf "
+"maanden."
+
+#: woocommerce-payIBAN.php:753
+msgid "Payment error:"
+msgstr "Betaling fout:"
+
+#: woocommerce-payIBAN.php:858
+msgid ""
+"Error canceling your subscription, please contact the website admin.<br/>"
+msgstr ""
+"Er is een fout opgetreden bij het stoppen van uw subscriptie, email de "
+"website administrator."
+
+#: woocommerce-payIBAN.php:863
+msgid ""
+"Dear Administrator,\\nOne of your customers has cancelled a subscription."
+"\\nThe subscription is also canceled in payIBAN.\\n\\nDetails of the order:"
+msgstr ""
+
+#: woocommerce-payIBAN.php:885
+msgid "IMPORTANT: Cancelled Subscription"
+msgstr "BELANGRIJK: Abonnement opgezegd"
+
+#~ msgid "PayIBAN"
+#~ msgstr "payIBAN"
+
+#~ msgid "Merchant ID"
+#~ msgstr "Gebruikersnaam"
+
+#~ msgid ""
+#~ "This is your API id given by payIBAN, if you do not have a PayIBAN "
+#~ "account yet get a free account <a href=\"https://www.payiban.com/product/"
+#~ "subscription/\">here</a>"
+#~ msgstr ""
+#~ "Heeft u nog geen PayIBAN account? Vraag uw gratis account <a href="
+#~ "\"https://www.payiban.com/nl/product/abonnement/\">hier</a> aan."
+
+#~ msgid "Merchant Password"
+#~ msgstr "Wachtwoord"
+
+#~ msgid ""
+#~ "API password given to you by payIBAN.<br/>Need support? mail to "
+#~ "support@payiban.com."
+#~ msgstr ""
+#~ "API wachtwoord van uw PayIBAN account.<br/>Hulp nodig? mail naar "
+#~ "support@payiban.com."
+
+#~ msgid "This is your API id given by payIBAN"
+#~ msgstr "Dit is uw payIBAN API gebruikersnaam."
+
+#~ msgid "API password given to you by payIBAN"
+#~ msgstr "Uw payIBAN API wachtwoord"
+
+#~ msgid "Step 1: Fill in the fields."
+#~ msgstr "Stap 1: Vul uw informatie in."
+
+#~ msgid "IBAN number:"
+#~ msgstr "Rekeningnummer:"
+
+#~ msgid "Account name:"
+#~ msgstr "Ten naam van:"
+
+#~ msgid "Mr."
+#~ msgstr "Drs."
+
+#~ msgid "Ms."
+#~ msgstr "Mvr."
+
+#~ msgid "Initials"
+#~ msgstr "Voorletters"
+
+#~ msgid "Preposition"
+#~ msgstr "Tussenvoegsel"
+
+#~ msgid "Family name"
+#~ msgstr "Achternaam"
+
+#~ msgid "Step 2:"
+#~ msgstr "Stap 2:"
+
+#~ msgid ""
+#~ "Vraag de verificatie TAN code aan, deze zal worden verzonden per SMS."
+#~ msgstr ""
+#~ "Request the verification TAN code, this code will be send to you by SMS."
+
+#~ msgid "Step 3: Enter TAN code."
+#~ msgstr "Stap 3: Vul uw TAN code in."
+
+#~ msgid "Vul de per SMS ontvangen code in."
+#~ msgstr "Enter the code you received by SMS."
+
+#~ msgid ""
+#~ "ERROR! payIBAN can only be used with subscriptions, please use another "
+#~ "payment method. "
+#~ msgstr ""
+#~ "ERROR! payIBAN kan alleen met abonnementen gebruikt worden, gebruik een "
+#~ "andere betalings optie."
+
+#~ msgid "Please enter your TAN code now. "
+#~ msgstr "Vul a.u.b. uw TAN code nu in."
+
+#~ msgid ""
+#~ "ERROR: payIBAN only support per month, per three months, per six months "
+#~ "and per year."
+#~ msgstr ""
+#~ "ERROR: payIBAN accepteert alleen per maand, per 3 maanden, per 6 en per "
+#~ "12 maanden."
+
+#~ msgid ""
+#~ "Dear Administrator,\n"
+#~ "One of your customers has cancelled a subscription.\n"
+#~ "Please update his subscription at payIBAN as fast as possible.\n"
+#~ "\n"
+#~ "Details of the order:"
+#~ msgstr ""
+#~ "Beste Adminstrator,\n"
+#~ "Een van uw klanten heeft een abonnement opgezegd\n"
+#~ "Zorg er zo spoedig mogelijk voor dat u dit in payIBAN verwerkt\n"
+#~ "\n"
+#~ "Details van de order:"
+
+#~ msgid "Error canceling your subscription, please contact the website admin."
+#~ msgstr ""
+#~ "Fout tijdens het opzeggen van uw abonnement, neem aub contact op met de "
+#~ "website administrator."
+
+#~ msgid "Subscription successfully ended. "
+#~ msgstr "Abbonement succesvol opgezegd"
